@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f3f8f2;
 }
 
 html {
@@ -189,9 +190,31 @@ section {
   text-align: center;
 }
 
+.float_Skill{
+  display: inline-block;
+}
+
 .section__text__p2 {
+  color: #081b31;
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+       typing 2s steps(20),
+       cursor 1s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% { border-color: wihte;}
+}
+
+/* typing effect */
+@keyframes typing {
+  from {width: 0;}
 }
 
 .title {
@@ -296,7 +319,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #eef0eb;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
