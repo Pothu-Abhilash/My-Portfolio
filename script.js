@@ -5,7 +5,10 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-const dynamicText = document.querySelector("h4 span");
+
+// for floating effect
+
+const dynamicText = document.querySelector("h2 span");
 const words = ["Full Stack Developer"];
 
 let wordIdx = 0;
@@ -29,6 +32,9 @@ const typeEffect = () => {
   }
 };
 typeEffect();
+
+
+// sticky nav bar
 
 window.addEventListener("scroll", function() {
   let header = document.querySelector("nav");
