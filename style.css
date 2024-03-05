@@ -464,7 +464,7 @@ article .icon {
   color: rgb(133, 76, 230);
   background-color: rgba(133, 76, 230, 0.082);
   border-radius: 1rem;
-  font-size: small;
+  font-size: smaller;
   /* padding-bottom: 1rem; */
   
 }
