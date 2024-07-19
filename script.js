@@ -9,7 +9,7 @@ function toggleMenu() {
 // for floating effect
 
 const dynamicText = document.querySelector("h2 span");
-const words = ["Full Stack Developer"];
+const words = ["Java Backend Developer"];
 
 let wordIdx = 0;
 let charIdx = 1;
